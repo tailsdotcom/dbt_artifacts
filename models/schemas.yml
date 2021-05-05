@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: fct_dbt__critical_path
+  - name: dbt__critical_path
     description: A table of models and executions times that make up the critical path of a full, incremental run.
     columns:
     - name: node_id
