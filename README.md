@@ -8,6 +8,7 @@ Models included:
 - `fct_dbt__latest_full_model_executions`
 - `fct_dbt__critical_path`
 - `fct_dbt_run_results`
+- `fact_dbt__test_executions`
 
 The critical path model determines the slowest route through your DAG, which provides you with the information needed to make a targeted effort to reducing `dbt run` times. For example:
 
